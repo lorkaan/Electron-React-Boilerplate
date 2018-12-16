@@ -2,7 +2,10 @@ const path = require('path');
 const HtmlWebPackPlugin = require("html-webpack-plugin");
 
 module.exports = {
-	entry: './src/HelloWorld.jsx',
+	entry: [
+		'./src/HelloWorld.jsx',
+		'./src/createElectron.js'
+	],
 	output: {
 		path: path.resolve(__dirname, 'dist'),
 		filename: 'output.bundle.js'
