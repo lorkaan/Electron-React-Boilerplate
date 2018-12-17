@@ -8,7 +8,7 @@ let win = null;
 function createWindow(){
   win = new BrowserWindow({width: 800, height:600});
   win.loadFile(main_path);
-  win.webContents.openDevTools();
+  //win.webContents.openDevTools();
   win.on('closed', ()=>{
     win = null;
   });
