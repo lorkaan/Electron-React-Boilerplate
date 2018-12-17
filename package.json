@@ -1,15 +1,17 @@
 {
-  "name": "test",
+  "name": "Electron/React Test App",
   "version": "1.0.0",
-  "description": "",
-  "main": "dist/output.bundle.js",
+  "description": "Simply proves that Electron and React can be run together.",
+  "main": "dist/electron.bundle.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-react": "webpack --config=react.config.js --mode=development",
-    "build-electron": "",
-    "build": "webpack --mode production",
-    "start": "electron .",
-    "dev": "webpack --mode development"
+    "build-react-dev": "webpack --config=react.config.js --mode=development",
+    "build-react": "webpack --config=react.config.js --mode=production",
+    "build-electron-dev": "webpack --config=electron.config.js --mode=development",
+    "build-electron": "webpack --config=electron.config.js --mode=production",
+    "build-dev": "npm run build-react-dev && npm run build-electron-dev",
+    "build": "npm run build-react && npm run build-electron",
+    "start": "electron ."
   },
   "author": "",
   "license": "ISC",
