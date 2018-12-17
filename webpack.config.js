@@ -3,9 +3,9 @@ const HtmlWebPackPlugin = require("html-webpack-plugin");
 
 module.exports = {
 	entry: [
-		'./src/HelloWorld.jsx',
-		'./src/createElectron.js'
+		'./src/createElectron.jsx'
 	],
+	target: "electron-main",
 	output: {
 		path: path.resolve(__dirname, 'dist'),
 		filename: 'output.bundle.js'

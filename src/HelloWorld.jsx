@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-class Heading extends React.Component{
+export class Heading extends React.Component{
 
 	render(){
 		return (<div>
@@ -15,4 +15,4 @@ function Phrase(props){
 }
 
 
-ReactDOM.render(<Heading/>, document.getElementById('app'));
+//ReactDOM.render(<Heading/>, document.getElementById('app'));
