@@ -15,4 +15,4 @@ function Phrase(props){
 }
 
 
-//ReactDOM.render(<Heading/>, document.getElementById('app'));
+ReactDOM.render(<Heading/>, document.getElementById('app'));
