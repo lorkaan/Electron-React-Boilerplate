@@ -1,5 +1,5 @@
 {
-  "name": "Electron-React-Test",
+  "name": "Electron-React-Boilerplate",
   "version": "1.0.0",
   "description": "Simply proves that Electron and React can be run together.",
   "main": "dist/electron.bundle.js",
