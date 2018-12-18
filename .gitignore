@@ -1,0 +1,8 @@
+# Ignore the node_modules directory
+node_modules/*
+
+# Ignore the dist directory
+dist/*
+
+# Except for the .gitkeep file for keeping the directory structure
+!dist/.gitkeep
