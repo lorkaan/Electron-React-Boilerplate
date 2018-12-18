@@ -8,8 +8,6 @@ This is a manually created application without using any boilerplate code or cre
 
 To get this code, just clone https://github.com/lorkaan/Electron-React-Test.git
 
-Requires that you install the following npm packages:-
-
 To finish the install, ensure you have node and npm installed and type
   'npm install'
 within the project folder.
