@@ -6,7 +6,7 @@ This is an easy Hello World Application using Electron and ReactJS, using Webpac
 
 This is a manually created application without using any boilerplate code or create-react-app npm module.
 
-To get this code, just clone https://github.com/lorkaan/Electron-React-Test.git
+To get this code, just clone https://github.com/lorkaan/Electron-React-Boilerplate.git
 
 To finish the install, ensure you have node and npm installed and type
   'npm install'
